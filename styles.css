@@ -294,7 +294,157 @@ ul li a:hover {
     font-size: 45px;
     opacity: 0.8;
     color: #ffff;
-    text-align: center;
+    margin-left: 220px;
+}
+
+#head1 {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    opacity: 0.8;
+    color: #ffff;
+    margin-right: 10px;
+    text-align: left;
+    margin-top: 98px;
+}
+
+.personalinfo {
+    color: #fff;
+}
+
+.academic {
+    display: flex;
+}
+
+.personals {
+    background-color: #3B7FE0;
+    display: flex;
+    &:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+}
+
+.abt {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 35px;
+    width: 200px;
+    opacity: 0.8;
+    color: #ffff;
+}
+
+.a_img {
+    height: 500px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a_img img {
+    height: 500px;
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}
+
+.a_content {
+    height: 500px;
+    width: 70%;
+    color: #ffff;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+}
+
+.a_content span {
+    color: rgb(81, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.academic .bar {
+    background-color: #ffff;
+    height: 900px;
+    width: 10px;
+    margin-top: 130px;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-left: -50px;
+}
+
+.circle1 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+}
+
+.circle2 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    margin-top: 300px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+}
+
+.circle3 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    margin-top: 300px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+}
+
+.inter {
+    margin-top: 40px;
+}
+
+.edu {
+    display: flex;
+}
+
+.ssc {
+    margin-top: 50px;
+}
+
+.tech {
+    margin-top: 10px;
+}
+
+.a {
+    color: #3B7FE0;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.eduImg {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eduImg img {
+    height: 500px;
 }
 
 #pro {
