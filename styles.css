@@ -1,16 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-:root {
-    --primary-color: #a855f7;
-    --primary-color-dark: #9333ea;
-    --secondary-color: #a855f7;
-    --text-dark: #1f2937;
-    --text-light: #6b7280;
-    --extra-light: #faf5ff;
-    --max-width: 1200px;
-}
-
 * {
-    padding: 0;
+    padding: 10px;
     margin: 0;
     box-sizing: border-box;
 }
@@ -21,30 +11,45 @@ a {
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #000D2D;
 }
 
 nav {
     width: 100%;
     position: fixed;
+    font-family: "Kodchasan", sans-serif;
+    font-size: 24px;
+    opacity: 0.8;
+    font-weight: 200;
+    font-style: normal;
     top: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: #000D2D;
     z-index: 99;
+    color: #fff;
 }
 
 .nav__content {
-    max-width: var(--max-width);
     margin: auto;
-    padding: 1.5rem 1rem;
+    padding: 2px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+#check {
+    font-size: 24px;
+    opacity: 0.8;
+    color: #ffff;
+    font-weight: 200;
+}
+
 nav .logo a {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--primary-color);
+    font-size: 24px;
+    opacity: 0.8;
+    color: #ffff;
+    font-weight: 200;
+    font-style: normal;
     transition: 0.3s;
 }
 
@@ -110,46 +115,59 @@ ul li a:hover {
 }
 
 .subtitle {
-    letter-spacing: 2px;
-    color: #a855f7;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    font-family: "Kodchasan", sans-serif;
+    font-size: 30px;
+    opacity: 0.8;
+    color: #ffff;
+    font-weight: 200;
 }
 
 .title {
-    font-size: 2.5rem;
-    font-weight: 400;
-    line-height: 3rem;
-    color: var(--text-dark);
-    margin-bottom: 1rem;
-}
-
-.title span {
-    font-weight: 600;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    opacity: 0.8;
+    color: #ffff;
 }
 
 .description {
-    line-height: 1.5rem;
-    color: var(--text-light);
-    margin-bottom: 2rem;
-    text-align: justify;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    opacity: 0.8;
+    color: #ffff;
+    width: 500px;
 }
 
-.action__btns {
-    display: flex;
-    gap: 1rem;
-}
-
-.action__btns button {
-    font-size: 1rem;
+.description span {
+    color: #3B7FE0;
     font-weight: 600;
-    letter-spacing: 2px;
-    padding: 1rem 2rem;
-    outline: none;
-    border: 2px solid var(--primary-color);
-    border-radius: 10px;
-    transition: 0.3s;
-    cursor: pointer;
+}
+
+.icons .icon img {
+    height: 58px;
+    width: 63px;
+}
+
+.icons .icon {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.btn {
+    background-color: #3B7FE0;
+    width: 200px;
+    height: 58px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    display: flex;
+    margin-left: 10px;
+    padding: 20px 31px;
 }
 
 .hire__me {
@@ -270,6 +288,12 @@ ul li a:hover {
 }
 
 #head {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    opacity: 0.8;
+    color: #ffff;
     text-align: center;
 }
 
