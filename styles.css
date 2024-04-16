@@ -455,6 +455,7 @@ ul li a:hover {
 .eduImg {
     width: 1000px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -532,4 +533,180 @@ ul li a:hover {
     font-family: sans-serif;
     font-size: 5px;
     text-anchor: middle;
+}
+
+.nontech_img {
+    background-color: #ddbff9;
+    height: 500px;
+    width: 600%;
+}
+
+.non_tech_skills {
+    background-color: #ffff;
+    height: 500px;
+    width: 50%;
+}
+
+.NON_TECHINAL_SKILLS {
+    height: 500px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a_content1 {
+    color: #ffffff;
+    font-family: "Kodchasan", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 20%;
+    width: 2000px;
+    margin-top: 50px;
+}
+
+.a_content1 li::marker {
+    content: "🖌️";
+}
+
+.circle1_1 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+}
+
+.img_pro {
+    height: 55px;
+    width: 55px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.py1 {
+    margin-top: -580px;
+    margin-left: -500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.p1 {
+    display: flex;
+}
+
+.eduImg button {
+    background-color: #3B7FE0;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 45px;
+    border: none;
+    margin-left: -450px;
+    &:hover {
+        background: transparent;
+        color: #3B7FE0;
+        border: 1px solid #3B7FE0;
+    }
+}
+
+.pro_i img {
+    height: 400px;
+    width: 450px;
+    margin-left: -400px;
+    margin-top: 300px;
+}
+
+.circle2_1 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+    margin-top: 70px;
+}
+
+.circle3_1 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+    margin-top: 43px;
+}
+
+.circle4_1 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+    margin-top: 45px;
+}
+
+.circle5_1 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+    margin-top: 45px;
+}
+
+.circle6_1 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+    margin-top: 45px;
+}
+
+.circle7_1 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+    margin-top: 45px;
+}
+
+.circle8_1 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+    margin-top: 45px;
+}
+
+.circle9_1 {
+    background-color: #3B7FE0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -20px;
+    border: 3px solid white;
+    overflow: visible;
+    margin-top: 45px;
 }
