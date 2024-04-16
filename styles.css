@@ -340,6 +340,16 @@ ul li a:hover {
     color: #ffff;
 }
 
+.abt1 {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 35px;
+    width: 350px;
+    opacity: 0.8;
+    color: #ffff;
+}
+
 .a_img {
     height: 500px;
     width: 30%;
@@ -349,10 +359,12 @@ ul li a:hover {
 }
 
 .a_img img {
-    height: 500px;
+    height: 400px;
+    opacity: 0.8;
     &:hover {
         transform: scale(1.1);
         transition: 0.5s;
+        opacity: 1;
     }
 }
 
@@ -465,7 +477,7 @@ ul li a:hover {
 }
 
 .single-chart {
-    width: 33%;
+    width: 20%;
     justify-content: space-around;
 }
 
@@ -478,7 +490,7 @@ ul li a:hover {
 
 .circle-bg {
     fill: none;
-    stroke: #3B7FE0;
+    stroke: #fff;
     stroke-width: 3.8;
 }
 
@@ -496,7 +508,7 @@ ul li a:hover {
 }
 
 .circular-chart.orange .circle {
-    stroke: #ffffff;
+    stroke: #3B7FE0;
 }
 
 .circular-chart.green .circle {
@@ -505,6 +517,14 @@ ul li a:hover {
 
 .circular-chart.blue .circle {
     stroke: darkgreen;
+}
+
+.circular-chart.black .circle {
+    stroke: darkgoldenrod;
+}
+
+.circular-chart.grey .circle {
+    stroke: blue;
 }
 
 .percentage {
