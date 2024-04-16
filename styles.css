@@ -710,3 +710,27 @@ ul li a:hover {
     overflow: visible;
     margin-top: 45px;
 }
+
+.contact_me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_img {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_img img {
+    width: 70%;
+    height: 70%;
+}
+
+.contact_form {
+    width: 50%;
+    height: 500px;
+}
