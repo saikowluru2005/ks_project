@@ -26,10 +26,10 @@
             <input type="checkbox" name="check" id="check" />
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="file:///D:/myportfolio/about.html">About</a></li>
-                <li><a href="#personal1">Resume</a>
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#head1">Resume</a>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#cntme">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -45,11 +45,12 @@
                 </p>
                 <div class="icons">
                     <div class="icon">
-                        <img src="git1.png" alt="GITHUB">
-                        <img src="in1.png" alt="LINKEDIN">
-                        <img src="mail1.png" alt="MAIL">
+                        <a href="https://github.com/saikowluru2005"><img src="git1.png" alt="GITHUB"></a>
+                        <a href="https://www.linkedin.com/in/kowluru-sai-522032261/"><img src="in1.png" alt="LINKEDIN"></a>
+                        <a href="mailto:saikowluru3@gmail.com"><img src="mail1.png" alt="MAIL"></a>
                         <img src="insta1.png" alt="INSTAGRAM"></div>
-                    <button class="btn">Download CV</button>
+                    <a href="resume.pdf" download>
+                        <button class="btn">Download CV</button></a>
                 </div>
             </div>
             <div class="image">
@@ -63,7 +64,7 @@
             <div class="a_img">
                 <img src="man1.png">
             </div>
-            <div class="a_content">
+            <div class="a_content" id="aboutme">
                 A dedicated B. Tech student at CVR College of Engineering, Hyderabad, skilled in <span>frontend web development and design, proficient in HTML, CSS, and JavaScript</span>. Versatile in <span>Java, Python, and C</span>, committed to continuous
                 learning and academic excellence. Quick learner, confident contributor, seeking collaborative opportunities to grow under experienced mentors.
 
@@ -455,17 +456,20 @@
             </div>
         </div>
     </section>
-    <h1 class="abt">Contact me</h1>
+    <h1 class="abt" id="cntme">Contact me</h1>
     <div class="contact_me">
         <div class="contact_img">
             <img src="contactme.png" alt="">
         </div>
         <div class="contact_form">
-            <form action="">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                <button>Send</button>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="611f8a68-7302-45c3-82b5-986dc443e328">
+                <input type="text" name="name" class="fname" id="name" placeholder="Name">
+                <input type="text" name="email" class="fname" id="email" placeholder="Email">
+                <input type="text" name="number" class="fname" id="phone" placeholder="Contact number">
+                <textarea name="message" id="" cols="30" rows="10" class="fname" placeholder="Message"></textarea><br>
+                <div class="con_btn">
+                    <button>Send</button></div>
             </form>
         </div>
     </div>
